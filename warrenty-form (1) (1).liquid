@@ -1,0 +1,1137 @@
+{% stylesheet %}
+    body {
+      margin: 0;
+    }
+    .custom-register-wrapper form {
+      display: block;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 24px;
+          position: relative;
+    }
+    /* .toggle-forms-wrapper{
+      max-width: 1070px !important;
+      margin: 0 auto 250px;
+      margin-bottom: 250px;
+    } */
+  select#tool-select--16 option {
+    color: black;
+}
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+      input[type="date"],
+      input[type="text"],
+    select,
+    input[type="file"] {
+      background-color: transparent;
+      border: 1px solid #4b4b4b;
+      border-radius: 8px;
+      padding: 8px 16px;
+      color: #d1d1d1;
+      text-transform: none;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  .tool-selector select{
+    border-radius: 8px;
+  }
+    input::placeholder {
+      color: #d1d1d1;
+    }
+    label {
+      color: #d1d1d1;
+      font-size: 16px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      color: #d1d1d1;
+    }
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: #d11a1a;
+      background-color: transparent;
+      border: 1px solid #4b4b4b;
+      border-radius: 3px;
+    }
+    p.file-info {
+      grid-column: 1 / -1;
+      font-size: 14px;
+      margin-top: 8px;
+      color: #d1d1d1;
+    }
+    .submit-container {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+    }
+    button.submit-btn {
+      background-color: #a3a3a3;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 32px;
+    height: 52px;
+    }
+    .yes-no-radio-btn {
+      display: flex;
+      margin: 4px 0;
+  }
+    .warranty-form-label {
+      color: #AEADAD;
+      font-size: 16px;
+      letter-spacing: 0;
+      font-weight: 500;
+      text-transform: none;
+  }
+    .yes-no-radio-btn label{
+      color: #AEADAD;
+    }
+    .shopify-product-form input {
+      color: #aeadad;
+      font-size: 15px;
+  }
+   .shopify-product-form input::placeholder {
+    font-size: 15px !important;
+    color: #aeadad !important;
+  }
+
+    div#warranty-forms-toggler-wrapper {
+      margin-bottom: 20px;
+  }
+.custom-register-wrapper form {
+    max-width: 600px;
+  margin: 0 auto;
+  }
+
+    /* .tool-selector {
+    position: relative;
+    top: 65%;
+    right: 104%;
+} */
+    .choices__list--multiple .choices__item{
+      display: inline-block !important;
+        vertical-align: middle !important;
+        border-radius: 8px !important;
+        padding: 0px 10px !important;
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        margin-right: 3.75px !important;
+        margin-bottom: 3.75px !important;
+        background-color: #EEEEEE !important;
+        border: 1px solid #EEEEEE !important;
+        color: #333 !important;
+        word-break: break-all !important;
+        box-sizing: border-box !important;
+        line-height: 0 !important;
+    }
+    .choices[data-type*=select-multiple] .choices__button{
+      position: relative !important;
+        display: inline-block !important;
+        margin: 0 -4px 0 8px !important;
+        border-left: 1px solid #333 !important;
+          background-size: 8px !important;
+        width: 2px !important;
+        line-height: 1 !important;
+        opacity: .75 !important;
+        border-radius: 0 !important;
+        padding: 6px 10px !important;
+        filter: invert(1) !important;
+    }
+      .choices__inner {
+        background-color: transparent !important;
+      }
+     input.choices__input.choices__input--cloned {
+        background: transparent !important;
+    }
+      .choices__list--dropdown, .choices__list[aria-expanded]{
+        color:black !important;
+      }
+  select#tool-select--1 option {
+    color: black;
+}
+  div#hulk-app-container p{
+    color: #AEADAD;
+        font-size: 14px;
+    font-weight: 400;
+  }
+  h1.exchange-heading {
+    font-size: 36px;
+    color: #AEADAD;
+    padding: 24px 0 18px 0;
+    border-bottom: 2px solid #AEADAD;
+    margin-bottom: 16px;
+}
+.tool-selector label {
+    font-size: 16px;
+    color: #AEADAD;
+    margin-bottom: 12px;
+}
+  /* button.submit-btn {
+    position: absolute;
+    top: 150%;
+    left: 0;
+} */
+/* .tool-selector {
+    width: 200%;
+} */
+.tool-select option{
+  color: black !important;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 1;             /* keep it visible (use 0 to hide) */
+  filter: invert(1);
+  cursor: pointer;
+}
+.toggle-forms-wrapper {
+    padding: 40px 0 !important;
+}
+    @media (max-width: 768px) {
+      .custom-register-wrapper form {
+        grid-template-columns: 1fr;
+      }
+      .recept-id-width{
+        width: 100% !important;
+      }
+      .tool-selector {
+    width: 100%;
+        top: 0%;
+    right: 0%;
+}
+.toggle-forms-wrapper {
+    margin: 0 auto 140px;
+}
+
+        /* button.submit-btn {
+    top: 105%;
+  } */
+    }
+{% endstylesheet %}
+
+<div class="toggle-forms-wrapper t4s-container">
+  <div class="toggle-forms-inner">
+    {% comment %} <div id="warranty-forms-toggler-wrapper">
+      <div class="warranty-form-label">Are you going to ship to an address outside of the United States?</div>
+
+      <!-- Radio Buttons (fixed group name) -->
+      <div class="yes-no-radio-btn">
+        <input id="togller-yes" type="radio" name="is_us_address" value="yes" checked>
+        <label for="togller-yes" class="form-label-text">Yes</label>
+      </div>
+      <div class="yes-no-radio-btn">
+        <input id="togller-no" type="radio" name="is_us_address" value="no">
+        <label for="togller-no" class="form-label-text">No</label>
+      </div>
+    </div> {% endcomment %}
+
+    <!-- Target Containers -->
+    <div id="hulk-app-container" class="hulk-app-container" style="display:none">
+      <p class="highlight">
+        <b>IMPORTANT NOTE FOR INTERNATIONAL CUSTOMERS:</b> Please complete this form and contact customer service BEFORE sending your product back to us, to obtain your international return number and shipping and handling costs.
+      </p>
+      <div style="margin:0 auto;" class="pxFormGenerator" id="FYAUNkUFmE-LOhz0JW9A0w"></div>
+    </div>
+
+    <div id="warranty-order-container" class="product-warranty-order-container">
+      <div class="custom-register-wrapper">
+        <div class="product-forms-container">
+          {% for product in section.settings.products %}
+            {% assign form_id = 'form--id--' | append: product.id %}
+            <div
+              class="product-form-wrapper"
+              data-product-id="{{ product.id }}"
+              style="{% unless forloop.first %}display: none;{% endunless %}"
+            >
+              {% form 'product', product, id: form_id, class: 'warranty-product-form' %}
+
+
+               <!--confrmation number--->
+                <div class="form_field">
+                <span>If you have already registered your product, please enter your confirmation code. If not, please upload proof of purchase along with the purchase date</span><br>
+                <label>Confirmation Number</label>
+                <div style="display:flex;gap:8px;align-items:center;">
+                  <input type="text" class="confirmation_number" name="properties[confirmation_number]" placeholder="Confirmation Number" style="flex:1;">
+                 <button type="button" class="next-btn">Next</button>
+                </div>
+                <div class="verify-status" style="display:none;margin-top:6px;font-size:14px;"></div>
+                <div class="previous-file-link" style="display:none;margin-top:6px;font-size:14px;color:#d1d1d1;"></div>
+                </div>
+                  <!--confrmation number--->
+
+
+                {% comment %} <input type="tel"  name="properties[phone]" placeholder="PHONE NUMBER*" required> {% endcomment %}
+                  <span class="form_field or_txt">OR</span>
+
+
+
+
+
+                <!--name-->
+                <div class="form_field">
+                <label>Full Name</label>
+                <input type="text" class="full_name" name="properties[full_name]" placeholder="Full Name" autocomplete="full name" required>
+                </div>
+                {% comment %} <input type="text" name="properties[last_name]" placeholder="LAST NAME*" required> {% endcomment %}
+                   <!--name-->
+                 
+                   <!--email-->
+                <div class="form_field">
+                <label>Email</label>
+                <input type="email" class="email" name="properties[email]" autocomplete="email" placeholder="Email" required>
+                </div>
+                 <!--email-->
+
+
+
+                
+                  
+
+
+
+
+                    <!-- Receipt upload with file input -->
+                <div class="recept-id-width form_field">
+                  <label for="receipt-{{ product.id }}">Submit proof of purchase (Non-Straight Ahead website purchases)</label>
+                  <input
+                    type="file"
+                    id="receipt-{{ product.id }}"
+                    name="properties[receipt_proof]"
+                    accept=".jpg,.pdf,.png,.jpeg"
+                    class="receipt-file-input"
+                  >
+                  <p class="file-info">Accepted file types: jpg, pdf, png, jpeg. Maximum size: 5 MB.</p>
+                  <div class="file-upload-status" style="display: none; color: #d1d1d1; font-size: 14px; margin-top: 8px;"></div>
+                </div>
+
+
+                <input type="hidden" name="properties[previous_upload]" class="previous-upload-input"> 
+                
+                {% comment %} <input
+                  type="text"
+                  name="properties[purchase_location]"
+                  placeholder="PLACE OF PURCHASE*"
+                  required
+                > {% endcomment %}
+                  
+                <!-- Tool Selector - Internal use only, not displayed in cart -->
+                <!-- Tool Selector - Internal use only, not displayed in cart -->
+                <div class="tool-selector form_field">
+                  {% comment %} <h1 class="exchange-heading">Change information</h1> {% endcomment %}
+                  <label for="tool-select--{{ forloop.index }}">Select Tool *</label>
+                  <select
+                    id="tool-select--{{ forloop.index }}"
+                    class="tool-select"
+                    name="exchange-product-internal"
+                    required
+                  >
+                    {% for prod in section.settings.products %}
+                      <option
+                        value="{{ prod.title | escape }}"
+                        data-targetId="{{ prod.id }}"
+                        data-variant-id="{{ prod.variants.first.id }}"
+                        data-price="{{ prod.variants.first.price | money_without_currency }}"
+                        {% if prod.id == product.id %}
+                          selected
+                        {% endif %}
+                      >
+                        {{ prod.title }}
+                      </option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="form_field">
+                  <label>Day of Purchase</label>
+                  <input type="Date" id="dateInput" name="properties[purchase_date]" placeholder="Mm/dd/yyyy" required>
+                </div>
+                <!-- Variant ID -->
+                <input
+                  type="hidden"
+                  name="id"
+                  value="{{ product.variants.first.id }}"
+                  class="variant-id-input"
+                >
+                
+                <!-- Internal tracking - these won't appear in cart -->
+                <input type="hidden" name="product-id-internal" value="{{ product.id }}">
+                <input type="hidden" name="section-id-internal" value="{{ section.id }}">
+                
+                <!-- Quantity -->
+                <input type="hidden" name="quantity" value="1">
+                
+                <!-- Submit Button -->
+                {% comment %} <button type="submit" class="submit-btn">Add to cart</button> {% endcomment %}
+
+<div style="margin-top:20px;">
+  <button type="button" class="next-btn manual-next-btn">
+    Continue to Warranty
+  </button>
+</div>
+
+              {% endform %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const dateInput = document.getElementById('purchase-date');
+
+  // When user selects a date, reformat it visually to MM/DD/YYYY
+  dateInput.addEventListener('change', function() {
+    const [year, month, day] = this.value.split('-');
+    if (year && month && day) {
+      // Create formatted display
+      const formatted = `${month}/${day}/${year}`;
+      // Store real value separately
+      this.setAttribute('data-original', this.value);
+      // Replace displayed value
+      this.type = 'text';
+      this.value = formatted;
+    }
+  });
+
+  // When clicking again, switch back to 'date' type to reopen the calendar
+  dateInput.addEventListener('focus', function() {
+    const original = this.getAttribute('data-original');
+    this.type = 'date';
+    if (original) this.value = original;
+  });
+});
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const radioGroup = document.querySelectorAll('input[name="is_us_address"]');
+    const hulkApp = document.getElementById('hulk-app-container');
+    const warrantyOrder = document.getElementById('warranty-order-container');
+
+    function toggleContainers() {
+      console.info('Toggling containers...');
+
+      let selectedValue = null;
+
+      radioGroup.forEach(radio => {
+        console.info(`Checking radio: id=${radio.id}, checked=${radio.checked}, value=${radio.value}`);
+        if (radio.checked) {
+          selectedValue = radio.value;
+        }
+      });
+
+      console.info(`Selected value: ${selectedValue}`);
+
+      if (selectedValue === 'yes') {
+        console.info('User selected YES — hiding hulkApp, showing warrantyOrder');
+        hulkApp.style.display = 'none';
+        warrantyOrder.style.display = 'block';
+      } else if (selectedValue === 'no') {
+        console.info('User selected NO — showing hulkApp, hiding warrantyOrder');
+        hulkApp.style.display = 'block';
+        warrantyOrder.style.display = 'none';
+      } else {
+        console.info('No valid selection made');
+      }
+    }
+
+    // Attach event listeners
+    radioGroup.forEach(radio => {
+      radio.addEventListener('change', toggleContainers);
+    });
+
+    // Optional: Trigger on load in case a radio is pre-selected
+    toggleContainers();
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const selects = document.querySelectorAll('.tool-select');
+    const forms = document.querySelectorAll('.product-form-wrapper');
+
+    const sharedFields = [
+      'first_name', 'last_name', 'email',
+      'phone', 'purchase_location', 'purchase_date'
+    ];
+
+    // Sync inputs across all forms
+    sharedFields.forEach(field => {
+      const allInputs = document.querySelectorAll(`[name="properties[${field}]"]`);
+      allInputs.forEach(input => {
+        input.addEventListener('input', function () {
+          const value = this.value;
+          allInputs.forEach(target => {
+            if (target !== this) {
+              target.value = value;
+            }
+          });
+        });
+      });
+    });
+
+    // Handle file uploads with proper URL generation
+    const fileInputs = document.querySelectorAll('.receipt-file-input');
+    fileInputs.forEach(fileInput => {
+      fileInput.addEventListener('change', function() {
+        const file = this.files[0];
+        const statusDiv = this.parentElement.querySelector('.file-upload-status');
+        const urlInput = this.parentElement.querySelector('.receipt-url-input');
+        
+        if (file) {
+          // Validate file
+          const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'application/pdf'];
+          const maxSize = 5 * 1024 * 1024; // 5MB
+          
+          if (!validTypes.includes(file.type)) {
+            statusDiv.style.display = 'block';
+            statusDiv.style.color = '#d11a1a';
+            statusDiv.textContent = 'Invalid file type. Please upload JPG, PNG, or PDF.';
+            this.value = '';
+            urlInput.value = '';
+            return;
+          }
+          
+          if (file.size > maxSize) {
+            statusDiv.style.display = 'block';
+            statusDiv.style.color = '#d11a1a';
+            statusDiv.textContent = 'File too large. Maximum size is 5MB.';
+            this.value = '';
+            urlInput.value = '';
+            return;
+          }
+          
+          // Show upload status
+          statusDiv.style.display = 'block';
+          statusDiv.style.color = '#d1d1d1';
+          statusDiv.textContent = `File selected: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)}MB)`;
+          
+          // Create object URL for the file
+          const fileURL = URL.createObjectURL(file);
+          urlInput.value = fileURL;
+          
+          // Sync file across all forms
+          fileInputs.forEach(otherInput => {
+            if (otherInput !== this) {
+              // Create a new FileList with the same file
+              const dt = new DataTransfer();
+              dt.items.add(file);
+              otherInput.files = dt.files;
+              
+              // Update status for other forms
+              const otherStatusDiv = otherInput.parentElement.querySelector('.file-upload-status');
+              const otherUrlInput = otherInput.parentElement.querySelector('.receipt-url-input');
+              
+              if (otherStatusDiv) {
+                otherStatusDiv.style.display = 'block';
+                otherStatusDiv.style.color = '#d1d1d1';
+                otherStatusDiv.textContent = `File selected: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)}MB)`;
+              }
+              
+              if (otherUrlInput) {
+                otherUrlInput.value = fileURL;
+              }
+            }
+          });
+        } else {
+          statusDiv.style.display = 'none';
+          urlInput.value = '';
+          
+          // Clear file from other forms too
+          fileInputs.forEach(otherInput => {
+            if (otherInput !== this) {
+              otherInput.value = '';
+              const otherStatusDiv = otherInput.parentElement.querySelector('.file-upload-status');
+              const otherUrlInput = otherInput.parentElement.querySelector('.receipt-url-input');
+              
+              if (otherStatusDiv) {
+                otherStatusDiv.style.display = 'none';
+              }
+              
+              if (otherUrlInput) {
+                otherUrlInput.value = '';
+              }
+            }
+          });
+        }
+      });
+    });
+
+    // Function to switch active form and update variant
+    function switchToForm(targetProductId) {
+      console.log('Switching to product:', targetProductId);
+      
+      forms.forEach(form => {
+        if (form.dataset.productId === targetProductId) {
+          form.style.display = 'block';
+          
+          // Find the corresponding select and update variant
+          const select = form.querySelector('.tool-select');
+          const selectedOption = select.options[select.selectedIndex];
+          const variantId = selectedOption.dataset.variantId;
+          
+          if (variantId) {
+            const variantInput = form.querySelector('.variant-id-input');
+            if (variantInput) {
+              variantInput.value = variantId;
+              console.log('Updated variant ID to:', variantId);
+            }
+          }
+        } else {
+          form.style.display = 'none';
+        }
+      });
+    }
+
+    // Handle select changes
+    selects.forEach(select => {
+      select.addEventListener('change', function () {
+        const selectedOption = this.options[this.selectedIndex];
+        const targetProductId = selectedOption.dataset.targetid;
+        const variantId = selectedOption.dataset.variantId;
+        
+        console.log('Product selected:', selectedOption.value, 'Target ID:', targetProductId, 'Variant ID:', variantId);
+        
+        // Sync all selects to show same selection
+        selects.forEach(otherSelect => {
+          if (otherSelect !== this) {
+            otherSelect.value = this.value;
+          }
+        });
+        
+        // Switch to the target form
+        switchToForm(targetProductId);
+      });
+    });
+
+    // Initialize: ensure first form has correct variant ID
+    if (forms.length > 0) {
+      const firstForm = forms[0];
+      const firstSelect = firstForm.querySelector('.tool-select');
+      if (firstSelect) {
+        const selectedOption = firstSelect.options[firstSelect.selectedIndex];
+        const variantId = selectedOption.dataset.variantId;
+        if (variantId) {
+          const variantInput = firstForm.querySelector('.variant-id-input');
+          if (variantInput) {
+            variantInput.value = variantId;
+            console.log('Initial variant ID set to:', variantId);
+          }
+        }
+      }
+    }
+
+    // Form submission handling
+    document.querySelectorAll('.warranty-product-form').forEach(form => {
+      form.addEventListener('submit', function(e) {
+        const variantInput = this.querySelector('.variant-id-input');
+        const variantId = variantInput ? variantInput.value : null;
+        const fileInput = this.querySelector('.receipt-file-input');
+        const urlInput = this.querySelector('.receipt-url-input');
+        const confirmation_number = this.querySelector('.confirmation_number');
+
+        console.log('Form submission - Variant ID:', variantId);
+        
+        if (!variantId) {
+          e.preventDefault();
+          alert('Error: Product variant not found. Please refresh the page and try again.');
+          return false;
+        }
+        
+        // Check if file is uploaded
+        if(confirmation_number && confirmation_number.value === ""){
+          if (fileInput && fileInput.files.length === 0) {
+            e.preventDefault();
+            //alert('Please upload a receipt proof file before submitting.');
+            return false;
+          }
+        }
+
+        // Add file URL to form data if available
+        if (urlInput && urlInput.value) {
+          console.log('Receipt file URL:', urlInput.value);
+        }
+        
+        // Log all form data for debugging
+        const formData = new FormData(this);
+        console.log('Form data being submitted:');
+        for (let [key, value] of formData.entries()) {
+          console.log(`${key}: ${value}`);
+        }
+
+      });
+    });
+    
+  });
+
+
+  $('.warranty-product-form').on('submit', function (e) {
+    e.preventDefault();
+
+    var formData = new FormData(this);
+    var confirmationNumber = $('.confirmation_number').val();
+    var fileInput = document.querySelector('.receipt-file-input');
+    var hasFile = fileInput && fileInput.files.length > 0;
+
+    if (!confirmationNumber && !hasFile) {
+      alert('Please enter a confirmation number or upload a receipt.');
+      return;
+    }
+
+    $.ajax({
+      url: '/cart/add',
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function () {
+        window.location.href = '/checkout';
+      },
+      error: function (err) {
+        console.error('Error adding to cart:', err);
+        alert('Oops! Something went wrong.');
+      }
+    });
+  });
+
+
+</script>
+
+
+
+
+<!--Auto Fill Script -->
+ {% comment %} <script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  var AIRTABLE_API_URL = "https://karma-beauty-two.vercel.app/api/sab";
+
+  function verifyConfirmationNumber(input, isAutoVerify) {
+    var confNumber = input.value.trim();
+    if (!confNumber) return;
+
+    var currentForm = input.closest("form");
+    var statusDiv = currentForm.querySelector(".verify-status");
+    var fileDiv = currentForm.querySelector(".previous-file-link");
+
+    if (statusDiv && !isAutoVerify) {
+      statusDiv.style.display = "block";
+      statusDiv.style.color = "#d1d1d1";
+      statusDiv.textContent = "Verifying...";
+    }
+    if (fileDiv) fileDiv.style.display = "none";
+
+    fetch(AIRTABLE_API_URL + "?warrentyid=" + encodeURIComponent(confNumber))
+      .then(function(res) { return res.json(); })
+      .then(function(response) {
+
+        if (!response.data || response.data.length === 0) {
+          if (statusDiv) {
+            statusDiv.style.color = "#d11a1a";
+            statusDiv.textContent = "Confirmation number not found.";
+          }
+          return;
+        }
+
+        var record = response.data[0];
+
+        // Match Selected Tool FIRST before filling other fields
+        var toolSelect = currentForm.querySelector(".tool-select");
+        if (toolSelect && record["Selected Tool"]) {
+          var airtableTool = record["Selected Tool"];
+          
+          // Enhanced normalize function to handle HTML entities and Unicode variations
+          function normalize(str) {
+            // First, decode HTML entities (e.g., &quot; to ")
+            var temp = document.createElement('textarea');
+            temp.innerHTML = str;
+            var decoded = temp.value;
+            
+            return decoded
+              .toLowerCase()
+              .trim()                       // trim first to remove leading/trailing spaces
+              .replace(/["""''`″′]/g, "")  // remove all quote types including Unicode primes (U+2033, U+2032)
+              .replace(/[–—−-]/g, "")      // remove all dash types: en dash (U+2013), em dash (U+2014), minus (U+2212), hyphen
+              .replace(/&quot;/g, "")       // remove any remaining &quot; entities
+              .replace(/&amp;/g, "")        // remove &amp; entities
+              .replace(/\s+/g, "")          // remove ALL spaces for simpler matching
+              .replace(/[^\w]/g, "");       // remove all non-alphanumeric characters as final cleanup
+          }
+          
+          var normalizedAirtable = normalize(airtableTool);
+          var matched = false;
+          
+          console.log("Looking for tool:", airtableTool);
+          console.log("Normalized Airtable:", normalizedAirtable);
+          console.log("Dropdown has", toolSelect.options.length, "options");
+          
+          for (var i = 0; i < toolSelect.options.length; i++) {
+            var optText = toolSelect.options[i].text;
+            var optValue = toolSelect.options[i].value;
+            
+            var normalizedText = normalize(optText);
+            var normalizedValue = normalize(optValue);
+            
+            console.log("  Option", i + ":", optText);
+            console.log("    normalizedText:", normalizedText);
+            console.log("    normalizedValue:", normalizedValue);
+            console.log("    normalizedAirtable:", normalizedAirtable);
+            console.log("    match?", normalizedText === normalizedAirtable || normalizedValue === normalizedAirtable);
+            
+            // Exact match after aggressive normalization
+            if (normalizedText === normalizedAirtable || normalizedValue === normalizedAirtable) {
+              toolSelect.selectedIndex = i;
+              // Trigger change event to switch form
+              toolSelect.dispatchEvent(new Event("change"));
+              matched = true;
+              console.log("✓ MATCHED at index", i, ":", optText);
+              break;
+            }
+          }
+          
+          if (!matched) {
+            console.warn("✗ Could not match tool:", record["Selected Tool"]);
+            console.warn("Normalized Airtable value was:", normalizedAirtable);
+          }
+        }
+
+        // Wait a bit for form switch to complete, then fill other fields
+        setTimeout(function() {
+          // Get the currently visible form (after switch)
+          var visibleForm = document.querySelector('.product-form-wrapper[style*="display: block"], .product-form-wrapper:not([style*="display: none"])');
+          if (!visibleForm) visibleForm = currentForm;
+          
+          // Fill Full Name and Email in the visible form
+          var fullNameInput = visibleForm.querySelector(".full_name");
+          var emailInput = visibleForm.querySelector(".email");
+          if (fullNameInput) fullNameInput.value = record["Full Name"] || "";
+          if (emailInput) emailInput.value = record["Email"] || "";
+
+          // Fill Date (Airtable returns YYYY-MM-DD which matches date input format)
+          var dateInput = visibleForm.querySelector("#dateInput");
+          if (dateInput && record["Date"]) {
+            dateInput.value = record["Date"];
+          }
+
+          // Show attachment link if available
+          var fileDivVisible = visibleForm.querySelector(".previous-file-link");
+          if (fileDivVisible && record["Attachment"]) {
+            fileDivVisible.style.display = "block";
+            fileDivVisible.innerHTML = 'Previous upload on file: <a href="' + record["Attachment"] + '" target="_blank" style="color:#d1d1d1;text-decoration:underline;">View file</a>';
+          }
+
+          var statusDivVisible = visibleForm.querySelector(".verify-status");
+          if (statusDivVisible) {
+            statusDivVisible.style.display = "block";
+            statusDivVisible.style.color = "#3d9c56";
+            statusDivVisible.textContent = "Details loaded successfully.";
+          }
+
+          console.log("Auto filled from Airtable:", record);
+        }, 300); // 300ms delay to allow form switch to complete
+
+      })
+      .catch(function(err) {
+        console.error("Verify error:", err);
+        if (statusDiv) {
+          statusDiv.style.color = "#d11a1a";
+          statusDiv.textContent = "Error fetching details. Please try again.";
+        }
+      });
+  }
+
+  // Verify button click
+  document.querySelectorAll(".verify-btn").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      var input = this.closest(".form_field").querySelector(".confirmation_number");
+      if (input) verifyConfirmationNumber(input, false);
+    });
+  });
+
+  // Also trigger on blur (when user tabs away from the field)
+  document.querySelectorAll(".confirmation_number").forEach(function(input) {
+    input.addEventListener("blur", function() {
+      if (this.value.trim()) verifyConfirmationNumber(this, false);
+    });
+  });
+
+  // Auto-verify from URL parameter ?wid=
+  var urlParams = new URLSearchParams(window.location.search);
+  var widParam = urlParams.get('wid');
+  
+  if (widParam) {
+    console.log("Found ?wid= in URL:", widParam);
+    
+    // Fill the confirmation number in all forms
+    document.querySelectorAll(".confirmation_number").forEach(function(input) {
+      input.value = widParam;
+    });
+    
+    // Auto-verify using the first form's input
+    var firstConfirmationInput = document.querySelector(".confirmation_number");
+    if (firstConfirmationInput) {
+      verifyConfirmationNumber(firstConfirmationInput, true);
+    }
+  }
+
+});
+
+
+</script>  {% endcomment %}
+
+<!--Auto Fill Script -->
+
+
+
+<!--redirect and show selected tool-->
+{% comment %} <script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const NEXT_PAGE = "/pages/warranty-selection";
+  const API_URL = "https://karma-beauty-two.vercel.app/api/sab";
+
+  document.querySelectorAll(".next-btn").forEach(btn => {
+
+    btn.addEventListener("click", async function(){
+
+      const form = this.closest("form");
+      const confirmation = form.querySelector(".confirmation_number").value.trim();
+      const toolSelect = form.querySelector(".tool-select");
+
+      let selectedTool = toolSelect.options[toolSelect.selectedIndex].text;
+
+      // ==========================
+      // CASE 1: Confirmation Number
+      // ==========================
+      if(confirmation){
+
+        try{
+          const res = await fetch(API_URL + "?warrentyid=" + encodeURIComponent(confirmation));
+          const json = await res.json();
+
+          if(json.data && json.data.length){
+
+            const record = json.data[0];
+
+            const attachment = record["Attachment"] || "";
+
+            // 👉 SAVE DATA ONLY (NO CART ADD)
+            localStorage.setItem("selectedTool", record["Selected Tool"] || selectedTool);
+            localStorage.setItem("customerData", JSON.stringify(record));
+
+            // 👉 REDIRECT
+            window.location.href = NEXT_PAGE;
+
+          } else {
+            alert("Confirmation number not found");
+          }
+
+        } catch(e){
+          alert("Error verifying number");
+        }
+
+      }
+
+      // ==========================
+      // CASE 2: Manual
+      // ==========================
+      else{
+
+        if(!form.checkValidity()){
+          form.reportValidity();
+          return;
+        }
+
+        const manualData = {
+          fullName: form.querySelector(".full_name")?.value || "",
+          email: form.querySelector(".email")?.value || "",
+          purchaseDate: form.querySelector("#dateInput")?.value || "",
+          selectedTool: selectedTool,
+          Attachment: "" // no image in manual
+        };
+
+        localStorage.setItem("selectedTool", selectedTool);
+        localStorage.setItem("customerData", JSON.stringify(manualData));
+
+        // 👉 REDIRECT ONLY
+        window.location.href = NEXT_PAGE;
+      }
+
+    });
+
+  });
+
+});
+</script> {% endcomment %}
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const NEXT_PAGE = "/pages/warranty-selection";
+  const API_URL = "https://karma-beauty-two.vercel.app/api/sab";
+
+  document.querySelectorAll(".next-btn").forEach(btn => {
+
+    btn.addEventListener("click", async function(){
+
+      const form = this.closest("form");
+      const confirmation = form.querySelector(".confirmation_number").value.trim();
+      const toolSelect = form.querySelector(".tool-select");
+
+      let selectedTool = toolSelect.options[toolSelect.selectedIndex].text;
+
+      // ==========================
+      // CASE 1: Confirmation Number
+      // ==========================
+      if(confirmation){
+
+        try{
+          const res = await fetch(API_URL + "?warrentyid=" + encodeURIComponent(confirmation));
+          const json = await res.json();
+
+          if(json.data && json.data.length){
+
+            const record = json.data[0];
+
+            localStorage.setItem("selectedTool", record["Selected Tool"] || selectedTool);
+            localStorage.setItem("customerData", JSON.stringify(record));
+
+            window.location.href = NEXT_PAGE;
+
+          } else {
+            alert("Confirmation number not found");
+          }
+
+        } catch(e){
+          alert("Error verifying number");
+        }
+
+      }
+
+      // ==========================
+      // CASE 2: Manual (FINAL FIX)
+      // ==========================
+      else{
+
+        if(!form.checkValidity()){
+          form.reportValidity();
+          return;
+        }
+
+        const fileInput = form.querySelector(".receipt-file-input");
+        let fileURL = "";
+
+        // ✅ Upload image to Cloudinary
+        if (fileInput && fileInput.files.length > 0) {
+
+          const file = fileInput.files[0];
+
+          // Validation
+          const validTypes = ['image/jpeg','image/jpg','image/png','application/pdf'];
+          const maxSize = 5 * 1024 * 1024;
+
+          if (!validTypes.includes(file.type)) {
+            alert("Invalid file type. Upload JPG, PNG or PDF.");
+            return;
+          }
+
+          if (file.size > maxSize) {
+            alert("File too large. Max 5MB allowed.");
+            return;
+          }
+
+          const formData = new FormData();
+          formData.append("file", file);
+          formData.append("upload_preset", "warranty_video"); // same preset
+
+          try{
+            // Optional loading
+            btn.innerText = "Uploading image...";
+            btn.disabled = true;
+
+            const res = await fetch(
+              "https://api.cloudinary.com/v1_1/dmkvgg8vo/image/upload",
+              {
+                method: "POST",
+                body: formData
+              }
+            );
+
+            const data = await res.json();
+
+            if(!data.secure_url){
+              throw new Error();
+            }
+
+            fileURL = data.secure_url;
+
+          } catch(e){
+            alert("Image upload failed. Please try again.");
+            btn.innerText = "Continue to Warranty";
+            btn.disabled = false;
+            return;
+          }
+        }
+
+        const manualData = {
+          fullName: form.querySelector(".full_name")?.value || "",
+          email: form.querySelector(".email")?.value || "",
+          purchaseDate: form.querySelector("#dateInput")?.value || "",
+          selectedTool: selectedTool,
+          Attachment: fileURL // ✅ FINAL FIX
+        };
+
+        localStorage.setItem("selectedTool", selectedTool);
+        localStorage.setItem("customerData", JSON.stringify(manualData));
+
+        window.location.href = NEXT_PAGE;
+      }
+
+    });
+
+  });
+
+});
+</script>>
+<!--redirect and show selected tool-->
+
+
+
+
+
+{% schema %}
+{
+  "name": "Forms Toggle Warranty",
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "products",
+      "label": "Products"
+    }
+  ],
+  "presets": [
+    {
+      "name": "forms-toggle-warranty"
+    }
+  ]
+}
+{% endschema %}
