@@ -1,11 +1,6 @@
 import Airtable from "airtable";
 import { NextRequest, NextResponse } from "next/server";
-
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type",
-};
+import { corsHeaders } from "@/lib/cors";
 
 export async function OPTIONS() {
   return NextResponse.json(null, { headers: corsHeaders });
